@@ -14,7 +14,7 @@ def convert_eps_folder_to_pdf(folder_path, output_pdf='merged_output.pdf', resol
     # Находим все EPS-файлы в папке (без учёта регистра)
     eps_patterns = [
         os.path.join(folder_path, '*.eps'),
-        os.path.join(folder_path, '*.EPS')
+        # os.path.join(folder_path, '*.EPS') # Лучше закоментировать эту строку т.к. в список добавятся файлы по два раза
     ]
     eps_files = []
     for pattern in eps_patterns:
