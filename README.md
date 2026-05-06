@@ -1,2 +1,2 @@
-# esp2pdf
-Конвертация ESP в PDF с помощью Python, Golang
+# eps2pdf
+Конвертация нескольких EPS файлов в один многостраничный PDF с помощью Python, Golang
