@@ -48,7 +48,7 @@ def convert_eps_folder_to_pdf(folder_path, output_pdf='merged_output.pdf', resol
 # Пример использования
 if __name__ == "__main__":
     # Укажите путь к вашей папке с EPS-файлами
-    folder_with_eps = "C://Users//useroks//Downloads//a7b3d83a-d2ff-47b4-8801-818a54615c04_begin_offset_5000_number_of_codes_2000"  # замените на реальный путь
+    folder_with_eps = "C://Users//user//tmp//eps_s"  # замените на реальный путь
     output_filename = "result.pdf"  # имя выходного файла
 
     convert_eps_folder_to_pdf(
